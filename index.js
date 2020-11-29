@@ -2,15 +2,15 @@
 const fs=require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
-const mardown = require("./utils/generateMarkdown");
+
 
 const questions = [{
     type: 'input',
     name: 'title',
-    message: 'What is your readme title?',
+    message: 'What is your readme title?(Spaces are fine)',
     validate: function (answer) {
         if (answer === null|| answer =="") {
-            return console.log(`Please enter a valid title, cannot be empty`);
+            return console.log(`Please enter a valid title, cannot be empty.`);
         } return true;
     }
 },
@@ -47,7 +47,7 @@ const questions = [{
 {
     type: "input",
     name: "usage",
-    message: "Provide instructions and examples for use. Include screenshots as needed. ",
+    message: "Provide instructions and examples for use. Include screenshots as needed.",
     validate: function (answer) {
         if (answer === null|| answer =="") {
             return console.log("Help people understand how to use the application or repository")
@@ -56,8 +56,28 @@ const questions = [{
 },
 {
     type: "input",
+    name: "screenshot1",
+    message: "Add as many screenshots or videos are required for your readme file",
+    validate: function (answer) {
+        if (answer === null|| answer =="") {
+            return console.log("At least one screenshot or video for your application is needed for a good readme");
+        } return true;
+    }
+},
+{
+    type: "input",
+    name: "screenshot2",
+    message: "Want to add another screenshot or video?(just press enter if you wish to skip)"
+},
+{
+    type: "input",
+    name: "screenshot3",
+    message: "Want to add another screenshot or video?(just press enter if you wish to skip)"
+},
+{
+    type: "input",
     name: "credits",
-    message: "Write who help made the repository and links to the repo if available.",
+    message: "Write who help made the repository and links to their profiles if available.",
     validate: function (answer) {
         if (answer === null|| answer =="") {
             return console.log("Hey, someone had to have worked on this repository. Give them some credit")
@@ -83,12 +103,10 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
     .then ((data) => {
-        var dataArr = generateMarkdown(data);
-        console.log(dataArr);
+        let markdown = generateMarkdown(data);
+        let titleNoSpace = data.title.replace(/ /g, '_')
+        writeToFile(`${titleNoSpace}.md`, markdown)
     })
-    
-    
-
 }
 
 // function call to initialize program
