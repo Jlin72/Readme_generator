@@ -47,7 +47,7 @@ const questions = [{
 {
     type: "input",
     name: "usage",
-    message: "Provide instructions and examples for use. Include screenshots as needed.",
+    message: "Provide instructions and examples for use.",
     validate: function (answer) {
         if (answer === null|| answer =="") {
             return console.log("Help people understand how to use the application or repository")
@@ -57,7 +57,7 @@ const questions = [{
 {
     type: "input",
     name: "screenshot1",
-    message: "Add as many screenshots or videos are required for your readme file",
+    message: "Add a screenshot or video for your readme file",
     validate: function (answer) {
         if (answer === null|| answer =="") {
             return console.log("At least one screenshot or video for your application is needed for a good readme");
