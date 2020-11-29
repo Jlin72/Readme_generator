@@ -10,7 +10,7 @@
 ## Screenshots or video
   This is a video showing how the application is run: https://www.youtube.com/watch?v=boPd6ueN4w4&feature=youtu.be
   
-  This here is a screenshot of how the readme looks like on github ![Deployed readme](https://i.imgur.com/RjDucFr.png)
+  This here is a screenshot of how the generated readme looks like on github ![Deployed readme](https://i.imgur.com/RjDucFr.png)
   
 ## Credits
   Made by Jhonny Lin (GitHub username: Jlin72 https://github.com/Jlin72)
