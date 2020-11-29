@@ -1,4 +1,4 @@
-# Weather dashboard
+# Example Readme(Weather dashboard)
 ## Description 
   A simple weather dashboard created by using jQuery and openweather API.
 ## Deployed application link
