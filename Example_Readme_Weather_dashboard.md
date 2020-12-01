@@ -7,14 +7,14 @@
   [Instalaltion](#installation)
   [Usage](#usage)
   [Screenshots or video](#screenshots-or-video)
-  [Credits]
+  [Credits](#Credits)
   [License](#License)
 ## Installation
   No installation required just click on the link for the deployed application.
 ## Usage
   To use the app just type the name of the city you want the weather for. The forecast will then appear on the screen.
 ## Screenshots or video
-  https://i.imgur.com/jlrt9lV.png
+  ![weather Dashboard screenshot](https://i.imgur.com/jlrt9lV.png)
   
   
 ## Credits
