@@ -1,6 +1,6 @@
 # Example Readme Weather Dashboard
 ## Description 
-  This repository contains all the code for the deployment of a simple weather dashboard online. The weather dashboard was created using HTML, bootstrap CSS, jQuery and the openweather API
+  This repository contains all the code for the deployment of a simple weather dashboard online. The weather dashboard was created using HTML, bootstrap CSS, jQuery and the openweather API.
 ## Deployed application link
   https://jlin72.github.io/Weather-Dashboard/
 ## Table of contents
