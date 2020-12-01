@@ -2,7 +2,7 @@
 ## Description 
   A simple weather dashboard created by using jQuery and openweather API.
 ## Deployed application link
-  https://github.com/Jlin72/Weather-Dashboard
+  https://jlin72.github.io/Weather-Dashboard/
 ## Installation
   No install required just click on the deployed link of the application to run it.
 ## Usage
