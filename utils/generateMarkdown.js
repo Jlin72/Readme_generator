@@ -4,21 +4,21 @@ return`# ${data.title}
 ## Description 
   ${data.description}
 ## Deployed application link
-  ${data.deployed}
+  Link to the deployed application: ${data.deployed}
 ## Table of contents
-  [Instalaltion](#installation)
-  [Usage](#usage)
-  [Screenshots or video](#screenshots-or-video)
-  [Credits]
-  [License](#License)
+  1.[Instalaltion](#installation)
+  2.[Usage](#usage)
+  3.[Screenshots or video](#screenshots-or-video)
+  4.[Credits]
+  5.[License](#License)
 ## Installation
   ${data.installation}
 ## Usage
   ${data.usage}
 ## Screenshots or video
-  ${data.screenshot1}
-  ${data.screenshot2}
-  ${data.screenshot3}
+  ![${data.description1}](${data.screenshot1})
+  ![${data.description2}](${data.screenshot2})
+  ![${data.description3}](${data.screenshot3})
 ## Credits
   ${data.credits}
 ## License

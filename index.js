@@ -76,6 +76,26 @@ const questions = [{
 },
 {
     type: "input",
+    name: "description1",
+    message: "Add a title to the screenshot",
+    validate: function (answer) {
+        if (answer === null|| answer =="") {
+            return console.log("Give it a title.");
+        } return true;
+    }
+},
+{
+    type: "input",
+    name: "description2",
+    message: "if there is no second screenshot leave this empty"
+},
+{
+    type: "input",
+    name: "description3",
+    message: "if there is no third screenshot leave this empty"
+},
+{
+    type: "input",
     name: "credits",
     message: "Write who help made the repository and links to their profiles if available.",
     validate: function (answer) {
