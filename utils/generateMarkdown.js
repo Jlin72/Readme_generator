@@ -1,16 +1,24 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
 return`# ${data.title}
+## Table of contents
+  [description](#description)
+
+  [deployed application link](#deployed-application-link)
+
+  [Instalaltion](#installation)
+
+  [Usage](#usage)
+
+  [Screenshots or video](#screenshots-or-video)
+
+  [Credits]
+
+  [License](#License)
 ## Description 
   ${data.description}
 ## Deployed application link
   Link to the deployed application: ${data.deployed}
-## Table of contents
-  1.[Instalaltion](#installation)
-  2.[Usage](#usage)
-  3.[Screenshots or video](#screenshots-or-video)
-  4.[Credits]
-  5.[License](#License)
 ## Installation
   ${data.installation}
 ## Usage
