@@ -57,7 +57,7 @@ const questions = [{
 {
     type: "input",
     name: "screenshot1",
-    message: "Add a screenshot or video for your readme file",
+    message: "Add as many screenshots or videos are required for your readme file",
     validate: function (answer) {
         if (answer === null|| answer =="") {
             return console.log("At least one screenshot or video for your application is needed for a good readme");

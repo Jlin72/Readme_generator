@@ -5,6 +5,12 @@ return`# ${data.title}
   ${data.description}
 ## Deployed application link
   ${data.deployed}
+## Table of contents
+  [Instalaltion](#installation)
+  [Usage](#usage)
+  [Screenshots or video](#screenshots-or-video)
+  [Credits]
+  [License](#License)
 ## Installation
   ${data.installation}
 ## Usage
