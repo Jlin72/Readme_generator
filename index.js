@@ -3,7 +3,7 @@ const fs=require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
-
+//The next const contains all the questions that will be asked to the user, the validate functions is to make sure that the user leaves no empty spaces.
 const questions = [{
     type: 'input',
     name: 'title',
@@ -104,6 +104,7 @@ function init() {
     inquirer.prompt(questions)
     .then ((data) => {
         let markdown = generateMarkdown(data);
+        // titleNoSpace is the name of the readme file but with no spaces, and with underscores instead.
         let titleNoSpace = data.title.replace(/ /g, '_')
         writeToFile(`${titleNoSpace}.md`, markdown)
     })
