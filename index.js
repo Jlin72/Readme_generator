@@ -66,16 +66,6 @@ const questions = [{
 },
 {
     type: "input",
-    name: "screenshot2",
-    message: "enter link to the second screenshot(just press enter if you wish to skip)"
-},
-{
-    type: "input",
-    name: "screenshot3",
-    message: "enter link to the third screenshot(just press enter if you wish to skip)"
-},
-{
-    type: "input",
     name: "description1",
     message: "Add a title to the screenshot",
     validate: function (answer) {
@@ -86,8 +76,18 @@ const questions = [{
 },
 {
     type: "input",
+    name: "screenshot2",
+    message: "enter link to the second screenshot(just press enter if you wish to skip)"
+},
+{
+    type: "input",
     name: "description2",
     message: "if there is no second screenshot leave this empty, press enter to continue"
+},
+{
+    type: "input",
+    name: "screenshot3",
+    message: "enter link to the third screenshot(just press enter if you wish to skip)"
 },
 {
     type: "input",

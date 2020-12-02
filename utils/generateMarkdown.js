@@ -2,19 +2,19 @@
 function generateMarkdown(data) {
 return`# ${data.title}
 ## Table of contents
-  [description](#description)
+  1.[Description](#Description)
 
-  [deployed application link](#deployed-application-link)
+  2.[Deployed application link](#Deployed-application-link)
 
-  [Instalaltion](#installation)
+  3.[Instalaltion](#Installation)
 
-  [Usage](#usage)
+  4.[Usage](#Usage)
 
-  [Screenshots or video](#screenshots-or-video)
+  5.[Screenshots or video](#Screenshots-or-video)
 
-  [Credits]
+  6.[Credits](#Credits)
 
-  [License](#License)
+  7.[License](#License)
 ## Description 
   ${data.description}
 ## Deployed application link

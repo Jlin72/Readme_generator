@@ -1,31 +1,31 @@
 # Example Readme Weather Dashboard
 ## Table of contents
-  [description](#description)
+  1.[Description](#Description)
 
-  [deployed application link](#deployed-application-link)
+  2.[Deployed application link](#Deployed-application-link)
 
-  [Instalaltion](#installation)
+  3.[Instalaltion](#Installation)
 
-  [Usage](#usage)
+  4.[Usage](#Usage)
 
-  [Screenshots or video](#screenshots-or-video)
+  5.[Screenshots or video](#Screenshots-or-video)
 
-  [Credits]
+  6.[Credits](#Credits)
 
-  [License](#License)
+  7.[License](#License)
 ## Description 
-  This repository contains all the code for the deployment of a simple weather dashboard online. The weather dashboard was created using HTML, bootstrap CSS, jQuery and the openweather API.
+  This repository contains all the code for the correct deployment of the weather dashboard online. This weather dashboard was created by using HTML, bootstrap CSS, jQuery and openweather API.
 ## Deployed application link
   Link to the deployed application: https://jlin72.github.io/Weather-Dashboard/
 ## Installation
-   No installation required just click on the link for the deployed application.
+  No installation requiered for this application.
 ## Usage
-   No installation required just click on the link for the deployed application.
+  Just type in the name of the city you want the forecast for on the search bar. Then the results will be deployed on the screen
 ## Screenshots or video
   ![weather Dashboard screenshot](https://i.imgur.com/jlrt9lV.png)
   ![]()
   ![]()
 ## Credits
-  Jhonny Lin
+  Jhonny Lin (Github: https://github.com/Jlin72/)
 ## License
   MIT License
