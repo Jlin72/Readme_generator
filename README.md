@@ -1,12 +1,19 @@
 # Readme generator
 ## Table of content
   1.[Description](#description)
+  
   2.[Deployed application link](#deployed-application-link)
+  
   3.[Installation](#installation)
+  
   4.[Usage](#usage)
+  
   5.[Screenshots or video](#scrrenshots-or-video)
+  
   6.[Credits](#credits)
+  
   7.[License](#license)
+  
 ## Description 
   This repository contains all the code required to create and run a simple readme generator by using node.js.
 ## Deployed application link
