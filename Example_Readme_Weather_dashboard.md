@@ -4,7 +4,7 @@
 
   2.[Deployed application link](#Deployed-application-link)
 
-  3.[Instalaltion](#Installation)
+  3.[Installation](#Installation)
 
   4.[Usage](#Usage)
 
