@@ -57,7 +57,7 @@ const questions = [{
 {
     type: "input",
     name: "screenshot1",
-    message: "Add as many screenshots or videos are required for your readme file",
+    message: "enter link to the first screenshot",
     validate: function (answer) {
         if (answer === null|| answer =="") {
             return console.log("At least one screenshot or video for your application is needed for a good readme");
@@ -66,13 +66,33 @@ const questions = [{
 },
 {
     type: "input",
+    name: "description1",
+    message: "Add a title to the screenshot",
+    validate: function (answer) {
+        if (answer === null|| answer =="") {
+            return console.log("Give it a title.");
+        } return true;
+    }
+},
+{
+    type: "input",
     name: "screenshot2",
-    message: "Want to add another screenshot or video?(just press enter if you wish to skip)"
+    message: "enter link to the second screenshot(just press enter if you wish to skip)"
+},
+{
+    type: "input",
+    name: "description2",
+    message: "if there is no second screenshot leave this empty, press enter to continue"
 },
 {
     type: "input",
     name: "screenshot3",
-    message: "Want to add another screenshot or video?(just press enter if you wish to skip)"
+    message: "enter link to the third screenshot(just press enter if you wish to skip)"
+},
+{
+    type: "input",
+    name: "description3",
+    message: "if there is no third screenshot leave this empty, press enter to continue"
 },
 {
     type: "input",
